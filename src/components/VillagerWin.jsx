@@ -1,4 +1,4 @@
-import win from "../assets/villagerWin.jpg";
+import win from "../assets/villagerwin.jpg";
 import "./HomePage.css";
 import mafia from "../assets/mafia1.jpg"
 
