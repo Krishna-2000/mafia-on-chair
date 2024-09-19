@@ -32,7 +32,8 @@ function App() {
       <PersistGate loading={null} persistor={persistor}>
         <Router>
           <Routes>
-            <Route path='/homePage' element={<HomePage/>}></Route>
+
+            <Route path='/' element={<HomePage/>}></Route>
             <Route path='/mainPage' element={<MainPage/>}></Route>
             <Route path='/joinGame' element={<JoinGamePage/>}></Route>
             <Route path='/startGame' element={<StartGamePage/>}></Route>
