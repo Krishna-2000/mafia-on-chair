@@ -1,0 +1,31 @@
+.player-container {
+    position: relative;
+    color: aliceblue;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    
+  }
+  
+  .player-name-input {
+    width: 200px; /* Set a specific width for the input */
+    height:30px;
+    padding: 5rpx; /* Add padding to the input for better spacing */
+    border: 2px solid #ccc; /* Set a border for the input */
+    border-radius: 5px; /* Add rounded corners */
+    font-size: 16px; /* Set the font size */
+    color: #333; /* Set the text color */
+    background-color: #f9f9f9; /* Set a light background color */
+    transition: border-color 0.3s ease; /* Add a smooth transition effect */
+    
+}
+
+.player-name-input:focus {
+    border-color: #007bff; /* Change border color when the input is focused */
+    outline: none; /* Remove default outline */
+    background-color: #fff; /* Set background color on focus */
+}
+
+
+
+

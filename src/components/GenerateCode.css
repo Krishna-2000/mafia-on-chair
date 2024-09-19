@@ -1,0 +1,22 @@
+.otp-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .otp-input {
+    width: 60px;
+    height: 70px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color:rgba(255, 255, 255, 1);
+  }
+  .header-buttons .button-group {
+    display: flex; /* Align buttons horizontally */
+    justify-content: center;
+    gap: 20px; /* Add 20px space between buttons */
+    margin-top: 20px;
+}

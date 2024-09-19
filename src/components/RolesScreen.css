@@ -1,0 +1,101 @@
+.police-page-header {
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text horizontally */
+    position: relative; /* Position it relative to its container */
+    top: -20px; /* Adjust this value to move the header towards the top */
+    margin: 0; /* Remove default margin */
+    font-size: 24px;
+  }
+  .mafia-page-header {
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text horizontally */
+    position: relative; /* Position it relative to its container */
+    top: -20px; /* Adjust this value to move the header towards the top */
+    margin: 0; /* Remove default margin */
+    font-size: 24px;
+  }
+  .villager-page-header {
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text horizontally */
+    position: relative; /* Position it relative to its container */
+    top: -20px; /* Adjust this value to move the header towards the top */
+    margin: 0; /* Remove default margin */
+    font-size: 24px;
+  }
+  .doctor-page-header {
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text horizontally */
+    position: relative; /* Position it relative to its container */
+    top: -20px; /* Adjust this value to move the header towards the top */
+    margin: 0; /* Remove default margin */
+    font-size: 24px;
+  }
+  
+.container {
+    display: flex;        /* Enables Flexbox */
+    align-items: center;  /* Vertically centers the content */
+    justify-content: space-between; /* Evenly spaces the image and text */
+    padding: 20px;        /* Optional padding */
+}
+
+/* Image section (on the left) */
+.image-section {
+    flex: 1; /* Allows the image section to take up 1/3rd of the space */
+}
+
+/* Image styling */
+.image {
+    max-width: 100%;      /* Make the image responsive */
+    height: auto;         /* Maintains the aspect ratio */
+    object-fit: cover;    /* Ensures the image covers the div if necessary */
+}
+
+/* Description section (on the right) */
+.description-section {
+    flex: 2;              /* Allows the description to take up 2/3rds of the space */
+    padding-left: 20px;   /* Adds some space between the image and description */
+    color: white;          /* Optional: Description text color */
+}
+
+.description-section h2 {
+    color: white;          /* Optional: Header color */
+}
+
+.description-section p {
+    font-size: 16px;      /* Optional: Text size */
+    line-height: 1.5;     /* Optional: Improves readability */
+}
+
+  
+  .player-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .player-button:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .player-button.darker {
+    background-color: #333 !important; /* Darker shade */
+    color: white !important;
+}
+
+/* Disabled button style */
+.player-button:disabled {
+    background-color: #ccc; /* Lighter shade for disabled */
+    color: #534f4f;
+    cursor: not-allowed;
+}
+
+.player-button.selected {
+  background-color: #587f1a; /* Greenish color when selected */
+  color: white;
+}

@@ -1,0 +1,45 @@
+
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .join-game-header {
+    color: white; /* Set the text color to white */
+    text-align: center; /* Center the text horizontally */
+    position: relative; /* Position it relative to its container */
+    top: -20px; /* Adjust this value to move the header towards the top */
+    margin: 0; /* Remove default margin */
+    font-size: 24px;
+  }
+
+  .otp-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .otp-input {
+    width: 60px;
+    height: 70px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color:rgba(255, 255, 255, 1);
+  }
+  
+  .otp-input:focus {
+    border-color: #007bff;
+  }
+
+  .error-content{
+    color: aliceblue;
+    font-size: 14;
+  }
