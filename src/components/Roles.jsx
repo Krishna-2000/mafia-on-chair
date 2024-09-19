@@ -1,6 +1,6 @@
 import "./RolesScreen.css";
 import "./HomePage.css";
-import GetPlayerList from "../services/getPlayerList";
+import GetPlayerList from "../services/GetPlayerList";
 import { useState,useEffect } from "react";
 import { useSelector } from "react-redux";
 import db from "../services/firebaseConfig";
